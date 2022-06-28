@@ -102,12 +102,6 @@ void login(char accountType)
 				//customer login -----------------------------------------------------------------------------------------------------
 		case 'u': {
 			
-			//supposed to get total amount of users!must be replaced!
-			int userCount = 10;
-			// string That Reads A File Or Struct That Holds All Driver Information And Gets The IDList !must be replaced!
-			string userNamesList[10] = { "u1", "u2", "u3", "u4", "u5" , "u6" , "u7" , "u8" , "u9" , "u10" };
-			//place holder for aformentioned File Or Struct but storing passwords!must be replaced!
-			string userpasswordList[10] = { "p1", "p2", "p3", "p4", "p5" , "p6" , "p7" , "p8" , "p9" , "p10" };
 			int uCounter = 0;
 			
 			bool result;
